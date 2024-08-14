@@ -15,7 +15,7 @@ const CatListingComponent = () => {
         try {
             console.log(page);
             
-            const res = await axios.get(`https://api.freeapi.app/api/v1/public/cats?page=${page}&limit=4`)
+            const res = await axios.get(`https://api.freeapi.app/api/v1/public/cats?page=${page}&limit=8`)
             const response = res?.data?.data
             setIsNextPage(response?.nextPage)
             setItems(prevItems => [...prevItems, ...response?.data]);
