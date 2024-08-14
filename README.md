@@ -12,7 +12,7 @@ Each task is implemented on a separate route, and the home route redirects to th
 
 ## Live Demo
 
-[Live Demo](https://66bd082666193e1878f3ef83--exquisite-druid-f6ae6e.netlify.app/)
+[Live Demo](https://main--effortless-dusk-6efd05.netlify.app/)
 
 
 ## Project Structure
